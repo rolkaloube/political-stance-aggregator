@@ -1,0 +1,5 @@
+
+
+The sample files in the 'Sample Resources' folder are non-specific and will take some tweaking to work for your specific needs.
+Any of the database names, tables, fields, file names, etc... will need to be changed in order for the scripts to work correctly. 
+They are intended as simple references and to help generate ideas - they will not work as-is.
