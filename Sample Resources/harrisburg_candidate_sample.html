@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sample Harrisburg Local Election Candidate Guide</title>
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #dbe3ee;
+      --accent: #1d4ed8;
+      --accent-soft: #dbeafe;
+      --good: #166534;
+      --warn: #92400e;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    .wrap {
+      max-width: 1050px;
+      margin: 0 auto;
+      padding: 32px 20px 48px;
+    }
+    header {
+      background: linear-gradient(135deg, #0f172a, #1d4ed8);
+      color: white;
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.18);
+    }
+    h1, h2, h3 { margin-top: 0; }
+    header p { margin-bottom: 0; max-width: 850px; }
+    .meta {
+      margin-top: 14px;
+      color: #dbeafe;
+      font-size: 0.95rem;
+    }
+    .section {
+      margin-top: 24px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 22px;
+      box-shadow: 0 6px 14px rgba(15, 23, 42, 0.05);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px;
+      background: #fff;
+    }
+    .eyebrow {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 0.82rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    ul { padding-left: 18px; }
+    .small { color: var(--muted); font-size: 0.94rem; }
+    .status-win { color: var(--good); font-weight: 700; }
+    .status-note { color: var(--warn); font-weight: 700; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 8px;
+    }
+    th, td {
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+      padding: 10px 8px;
+      vertical-align: top;
+    }
+    th { background: #f8fafc; }
+    a { color: var(--accent); }
+    .footer {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    code {
+      background: #eef2ff;
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Sample Harrisburg Local Election Candidate Guide</h1>
+      <p>
+        This page summarizes a <strong>sample</strong> of publicly available candidate information from recent Harrisburg local elections,
+        mainly the <strong>2025 Harrisburg mayoral race</strong> and selected <strong>2025 Harrisburg City Council</strong> candidates.
+        It is designed as a quick-reference file, not a comprehensive voter guide.
+      </p>
+      <div class="meta">Compiled March 26, 2026 • Sample only • Public-source summary</div>
+    </header>
+
+    <section class="section">
+      <h2>How to use this file</h2>
+      <p>
+        Candidate pages and local coverage vary widely in detail. For that reason, this guide separates three kinds of information:
+        <strong>office/background</strong>, <strong>campaign themes or priorities</strong>, and <strong>election outcome</strong>.
+        Where detailed issue positions were not easy to verify from public sources, this guide says so instead of guessing.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Mayoral race sample</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="eyebrow">Mayor</div>
+          <h3>Wanda Williams</h3>
+          <p class="small">Incumbent mayor of Harrisburg; won re-election in the November 4, 2025 general election.</p>
+          <ul>
+            <li><strong>Role/background:</strong> Ballotpedia lists Williams as the sitting mayor of Harrisburg.</li>
+            <li><strong>Public priorities found in reporting:</strong> At her January 2026 swearing-in, Williams emphasized infrastructure, responsible growth, stability, long-term planning, homeownership, blight reduction, workforce development, and improved cooperation in city government.</li>
+            <li><strong>Election result:</strong> Defeated Dan Miller in the 2025 general election.</li>
+          </ul>
+          <p class="status-win">Status: Won 2025 general election</p>
+        </article>
+
+        <article class="card">
+          <div class="eyebrow">Mayor</div>
+          <h3>Dan Miller</h3>
+          <p class="small">Harrisburg city treasurer and former councilperson/controller; ran for mayor in 2025.</p>
+          <ul>
+            <li><strong>Role/background:</strong> Ballotpedia says Miller has served Harrisburg as councilperson, controller, and treasurer, and has a background as a CPA and business owner.</li>
+            <li><strong>Campaign themes found in Ballotpedia survey:</strong> Miller described himself as the most qualified candidate based on financial, management, and city-government experience. He argued city management was inefficient and said he could improve operations.</li>
+            <li><strong>Additional campaign framing:</strong> FOX43 reported that Miller entered the race pledging “fresh leadership.”</li>
+            <li><strong>Election result:</strong> Lost to Wanda Williams in the 2025 general election after also losing the Democratic primary and advancing separately as the Republican write-in nominee.</li>
+          </ul>
+          <p class="status-note">Status: Candidate sample included for comparison</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>City Council sample</h2>
+      <p>
+        Public information for council candidates was more uneven than for the mayoral race. The entries below are a sample that combines
+        Ballotpedia election records with local reporting where available.
+      </p>
+      <div class="grid">
+        <article class="card">
+          <div class="eyebrow">City Council</div>
+          <h3>Ausha Green</h3>
+          <ul>
+            <li><strong>Role/background:</strong> Ballotpedia lists Green as an at-large Harrisburg City Council member first elected in 2018.</li>
+            <li><strong>2025 status:</strong> Re-elected in the November 4, 2025 general election.</li>
+            <li><strong>Primary standing:</strong> One of the top four finishers in the 2025 Democratic primary.</li>
+            <li><strong>Public issue detail:</strong> Publicly accessible summary material located here was limited; this sample focuses on office and election context.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="eyebrow">City Council</div>
+          <h3>Robert Lawson</h3>
+          <ul>
+            <li><strong>Role/background:</strong> Ballotpedia lists Lawson as an at-large council member beginning January 5, 2026, and identifies him as a former council member.</li>
+            <li><strong>2025 status:</strong> Won one of four council seats in the November 4, 2025 general election.</li>
+            <li><strong>Primary standing:</strong> Finished among the four successful Democratic primary candidates.</li>
+            <li><strong>Public issue detail:</strong> Easily verifiable issue-specific platform detail was limited in the sources sampled for this file.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="eyebrow">City Council</div>
+          <h3>Elyse Irvis</h3>
+          <ul>
+            <li><strong>Role/background:</strong> Part of the United Neighbors for Harrisburg slate announced in February 2025.</li>
+            <li><strong>Shared themes from slate launch:</strong> TheBurg reported that Irvis, Andrea Grove, and Basir Vincent presented a shared vision centered on economic growth, affordable housing development, and community building.</li>
+            <li><strong>2025 status:</strong> Ran in the Democratic primary but did not advance to the winning four spots.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="eyebrow">City Council</div>
+          <h3>Basir Vincent</h3>
+          <ul>
+            <li><strong>Role/background:</strong> Also part of the United Neighbors for Harrisburg slate.</li>
+            <li><strong>Shared themes from slate launch:</strong> Economic growth, affordable housing development, and community building.</li>
+            <li><strong>2025 status:</strong> Ran in the Democratic primary but did not win one of the four nominations.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Quick results snapshot</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Office</th>
+            <th>Candidate</th>
+            <th>Party / context</th>
+            <th>Result summarized</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mayor</td>
+            <td>Wanda Williams</td>
+            <td>Democrat, incumbent</td>
+            <td>Won 2025 general election for mayor</td>
+          </tr>
+          <tr>
+            <td>Mayor</td>
+            <td>Dan Miller</td>
+            <td>General-election Republican nominee; also competed in Democratic primary</td>
+            <td>Lost 2025 general election for mayor</td>
+          </tr>
+          <tr>
+            <td>City Council</td>
+            <td>Ausha Green</td>
+            <td>Democrat, incumbent at-large member</td>
+            <td>Won 2025 general election</td>
+          </tr>
+          <tr>
+            <td>City Council</td>
+            <td>Robert Lawson</td>
+            <td>Democrat, former council member</td>
+            <td>Won 2025 general election</td>
+          </tr>
+          <tr>
+            <td>City Council</td>
+            <td>Elyse Irvis</td>
+            <td>Democratic primary candidate</td>
+            <td>Did not advance from 2025 primary</td>
+          </tr>
+          <tr>
+            <td>City Council</td>
+            <td>Basir Vincent</td>
+            <td>Democratic primary candidate</td>
+            <td>Did not advance from 2025 primary</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>Sources used for this sample</h2>
+      <ol>
+        <li><a href="https://ballotpedia.org/City_elections_in_Harrisburg%2C_Pennsylvania_%282025%29">Ballotpedia: City elections in Harrisburg, Pennsylvania (2025)</a></li>
+        <li><a href="https://ballotpedia.org/Mayoral_election_in_Harrisburg%2C_Pennsylvania_%282025%29">Ballotpedia: Mayoral election in Harrisburg, Pennsylvania (2025)</a></li>
+        <li><a href="https://ballotpedia.org/Wanda_Williams">Ballotpedia: Wanda Williams</a></li>
+        <li><a href="https://ballotpedia.org/Dan_Miller_%28Harrisburg_mayoral_candidate%29">Ballotpedia: Dan Miller (Harrisburg mayoral candidate)</a></li>
+        <li><a href="https://theburgnews.com/around-the-burg/wanda-williams-sworn-in-for-second-term-as-harrisburg-mayor-council-mayor-argue-on-who-is-to-blame-for-fired-city-officials">TheBurg: Wanda Williams sworn in for second term as Harrisburg mayor</a></li>
+        <li><a href="https://www.fox43.com/article/news/local/dauphin-county/dan-miller-harrisburg-mayor-race-announcement/521-3616621f-c1a9-4d6a-a32e-215939f8b73c">FOX43: Dan Miller joins Harrisburg mayor race, pledges fresh leadership</a></li>
+        <li><a href="https://theburgnews.com/news/slate-of-harrisburg-entrepreneurs-community-organizers-announce-run-for-city-council">TheBurg: Slate of Harrisburg entrepreneurs, community organizers announce run for City Council</a></li>
+        <li><a href="https://ballotpedia.org/Ausha_Green">Ballotpedia: Ausha Green</a></li>
+        <li><a href="https://ballotpedia.org/Robert_Lawson">Ballotpedia: Robert Lawson</a></li>
+        <li><a href="https://theburgnews.com/news/harrisburg-mayor-wanda-williams-wins-re-nomination-in-a-tight-race-general-election-ballot-set">TheBurg: Harrisburg mayor Wanda Williams wins re-nomination in a tight race</a></li>
+      </ol>
+      <p class="small">
+        Note: This file intentionally uses <strong>sample</strong> candidate entries. It is not a complete ballot directory and should not be treated as an official election publication.
+      </p>
+    </section>
+
+    <div class="footer">
+      Tip: Open this file in any browser. To expand it later, add more candidate cards using the same structure or replace the sample section with your own shortlist.
+    </div>
+  </div>
+</body>
+</html>
