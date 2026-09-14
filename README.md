@@ -14,17 +14,12 @@ Key MVP Components:
 * Candidate listings for each race 
 
 ## **Beyond MVP:**
-
-Provide a summary of each politician's campaign. 
-
-Provide a summary of how each politician voted and what bills they attempted to pass if they were an existing elected official. 
-
-Link to new articles that reference politicians. 
-
-Build a UI to take input data and display information. 
+* Provide a summary of each politician's campaign. 
+* Provide a summary of how each politician voted and what bills they attempted to pass if they were an existing elected official. 
+* Link to new articles that reference politicians. 
+* Build a UI to take input data and display information. 
 
 ## **Available Resources:**
-
 * https://www.vote411.org/ballot 
 * https://www.pa.gov/agencies/vote/elections/upcoming-elections 
 * https://www.dauphincounty.gov/government/support-services/registration-elections 
@@ -33,10 +28,8 @@ Build a UI to take input data and display information.
 * https://www.Facebook.com  
 
 For web scraping, check a site for a robots.txt file. if the site does not allow for web scraping, then it is discouraged from attempting to scrape that data.
-
 * https://scrape.do/blog/how-to-check-if-a-website-allows-scraping/
 * https://realpython.com/beautiful-soup-web-scraper-python/
 
-Storing data (sql lite):
-
+For storing data (sql lite)...
 * https://www.geeksforgeeks.org/python/python-sqlite/
