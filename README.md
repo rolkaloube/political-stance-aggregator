@@ -1,5 +1,3 @@
-# political-stance-aggegator
-
 ## **Prompt:**
 Provide a tool that can provide you with a list of upcoming local elections, who the candidates are, and summarize the political views of each candidate. 
 
